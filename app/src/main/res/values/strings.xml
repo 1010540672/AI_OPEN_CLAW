@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Auth Demo</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">欢迎回来</string>
+    <string name="login_subtitle">登录您的账户</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="no_account">还没有账户？</string>
+    <string name="register_now">立即注册</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">创建账户</string>
+    <string name="register_subtitle">开始您的旅程</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="register">注册</string>
+    <string name="has_account">已有账户？</string>
+    <string name="login_now">立即登录</string>
+
+    <!-- Success Screen -->
+    <string name="success_title">登录成功！</string>
+    <string name="success_message">欢迎回来，%s</string>
+    <string name="logout">退出登录</string>
+
+    <!-- Validation -->
+    <string name="error_empty_username">请输入用户名</string>
+    <string name="error_empty_password">请输入密码</string>
+    <string name="error_empty_confirm_password">请确认密码</string>
+    <string name="error_password_mismatch">两次密码不一致</string>
+    <string name="error_password_too_short">密码至少6位</string>
+    <string name="error_login_failed">用户名或密码错误</string>
+    <string name="error_username_exists">用户名已存在</string>
+</resources>
