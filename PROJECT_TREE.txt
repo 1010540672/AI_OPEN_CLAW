@@ -1,0 +1,46 @@
+android-webview-perf-plugin/
+│
+├── 📄 文档目录 (Documentation)
+│   ├── 📖 DELIVERY.md                ← 项目交付清单（从这里开始）
+│   ├── 📖 INDEX.md                   ← 项目总览
+│   ├── 📖 QUICKSTART.md              ← 3分钟快速开始 ⭐
+│   ├── 📖 BUILD_GUIDE.md             ← 完整编译指南 ⭐
+│   ├── 📖 README.md                  ← 功能介绍和API文档 ⭐⭐
+│   ├── 📖 INTEGRATION.md             ← 集成到现有项目
+│   ├── 📖 FAQ.md                    ← 常见问题解答
+│   ├── 📖 PROJECT_OVERVIEW.md        ← 技术架构说明
+│   └── 📖 QUICK_REFERENCE.md         ← API速查手册
+│
+├── 🔧 编译脚本 (Build Scripts)
+│   ├── build_apk.sh                 ← Linux/macOS编译脚本
+│   ├── build_apk.bat                ← Windows编译脚本
+│   └── setup_env.sh                 ← Linux一键配置环境
+│
+├── 📦 插桩插件 (Plugin)
+│   ├── build.gradle.kts
+│   └── src/main/java/com/webview/perf/
+│       ├── WebViewPerfPlugin.java           ← 插件入口
+│       ├── WebViewPerfTransform.java        ← Transform实现
+│       └── WebViewPerformanceVisitor.java   ← ASM字节码访问器
+│
+├── 📊 监控库 (Monitor Library)
+│   ├── build.gradle.kts
+│   └── src/main/java/com/webview/perf/monitor/
+│       ├── WebViewMonitor.kt                ← 监控器核心
+│       ├── WebViewPerfData.kt               ← 数据模型
+│       └── WebViewPerfVisualization.kt      ← 可视化窗口
+│
+└── 📱 示例应用 (Sample App)
+    ├── build.gradle.kts
+    ├── proguard-rules.pro
+    ├── src/main/
+    │   ├── AndroidManifest.xml
+    │   ├── java/com/webview/perf/demo/
+    │   │   ├── MainActivity.kt              ← 基础使用示例
+    │   │   └── AdvancedActivity.kt          ← 高级使用示例
+    │   └── res/layout/
+    │       └── activity_main.xml            ← UI布局
+    └── build/
+        └── outputs/apk/debug/
+            └── app-debug.apk                ← 编译输出的APK
+

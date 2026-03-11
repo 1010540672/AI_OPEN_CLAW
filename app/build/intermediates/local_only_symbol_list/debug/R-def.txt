@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+id load_button
+id show_perf_button
+id url_input
+id webview
+layout activity_advanced
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.WebViewPerfDemo
